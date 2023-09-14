@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de execução</title>
+    <script src="jogo.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onresize="ajustarTamanhoPalcoJogo ()"> <!--evento onresize = a função é disparada quando a janela do navegador for redimensionada-->
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="imagens/coracao_cheio.png" alt="">
+            <img id="v2" src="imagens/coracao_cheio.png" alt="">
+            <img id="v3" src="imagens/coracao_cheio.png" alt="">
+        </div>
+        <div class="cronomentro">
+            Tempo restante: <span id="cronomentro"></span>
+        </div>
+    </div>
+    <script>
+        document.getElementById ('cronomentro').innerHTML = tempo
+
+       var criaMosquito = setInterval (function () {posicaoRandomica ()
+    },  // chamando a função em um intervalo de tempo de 1s, ai o elemento aparece
+    criaMosquitoTempo)
+
+    </script>
+</body>
+</html>
